@@ -153,7 +153,7 @@ if __name__ == "__main__":
    - Relevant past exchanges are injected as context
    
    Try:
-   1. "My name is Pallab and I work at MarketCast"
+   1. "My name is Pallab and I work at Acme Corp"
    2. "I like building AI agents"
    3. Chat about other things for a while...
    4. "What's my name?" → searches memory, finds it even if
