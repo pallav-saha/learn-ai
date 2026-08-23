@@ -1,0 +1,16 @@
+Product,Category,Units_Sold,Price,Revenue,Quarter,Region
+Laptop Pro,Electronics,150,1200,180000,Q1,North
+Wireless Mouse,Electronics,500,35,17500,Q1,North
+Office Chair,Furniture,200,450,90000,Q1,South
+Standing Desk,Furniture,80,800,64000,Q1,East
+Monitor 27in,Electronics,300,400,120000,Q1,West
+Laptop Pro,Electronics,180,1200,216000,Q2,North
+Wireless Mouse,Electronics,620,35,21700,Q2,South
+Office Chair,Furniture,150,450,67500,Q2,East
+Standing Desk,Furniture,120,800,96000,Q2,West
+Monitor 27in,Electronics,250,400,100000,Q2,North
+Laptop Pro,Electronics,200,1200,240000,Q3,South
+Wireless Mouse,Electronics,700,35,24500,Q3,East
+Office Chair,Furniture,180,450,81000,Q3,West
+Standing Desk,Furniture,95,800,76000,Q3,North
+Monitor 27in,Electronics,320,400,128000,Q3,South

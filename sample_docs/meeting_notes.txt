@@ -1,0 +1,22 @@
+Q3 Planning Meeting Notes — August 2026
+
+Attendees: Alice (Engineering), Bob (Marketing), Frank (Management)
+
+DECISIONS:
+1. We will launch the new AI feature by September 15, 2026.
+2. Marketing budget for Q3 is approved at $50,000.
+3. Two new engineers will be hired by end of August.
+4. The team will switch from weekly to bi-weekly sprints starting next month.
+
+ACTION ITEMS:
+- Alice: Prepare technical spec for AI feature by Aug 20
+- Bob: Create marketing campaign plan by Aug 25
+- Frank: Finalize hiring budget with HR by Aug 18
+- All: Review competitor analysis document shared by Carol
+
+RISKS:
+- AI feature depends on Groq API stability (mitigation: build fallback to OpenRouter)
+- New hires may not be onboarded in time (mitigation: extend timeline by 1 week if needed)
+- Marketing budget may be insufficient for paid ads (mitigation: focus on organic + partnerships)
+
+NEXT MEETING: August 25, 2026 at 2:00 PM

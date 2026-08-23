@@ -1,0 +1,12 @@
+SPRINT GOALS - Week 34
+
+1. Fix login bug on mobile app
+2. Deploy payment service v2.1
+3. Write API docs for /users endpoint
+4. Code review PR #247 and #251
+
+BLOCKERS:
+- Waiting on AWS credentials from DevOps
+- Design team needs 2 more days for mockups
+
+OWNER: Alice (Engineering Lead)

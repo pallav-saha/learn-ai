@@ -1,0 +1,14 @@
+pandas
+openai
+python-dotenv
+fastapi
+uvicorn
+wikipedia-api
+sentence-transformers
+chromadb
+pdfplumber
+python-docx
+openpyxl
+pytesseract
+Pillow
+python-multipart

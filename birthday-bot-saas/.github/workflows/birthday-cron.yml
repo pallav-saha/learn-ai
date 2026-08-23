@@ -1,0 +1,56 @@
+name: Birthday Reminder Cron
+
+on:
+  schedule:
+    # Run daily at 6:00 AM IST (00:30 UTC)
+    - cron: '30 0 * * *'
+
+  # Allow manual trigger for testing
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - monthly
+
+jobs:
+  send-reminders:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r birthday-bot-saas/scripts/requirements.txt
+
+      - name: Run monthly summary (1st of month)
+        if: github.event.inputs.mode == 'monthly' || github.event_name == 'schedule'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_APP_PASSWORD: ${{ secrets.SENDER_APP_PASSWORD }}
+        run: |
+          TODAY=$(date -u +%d)
+          if [ "$TODAY" = "01" ] || [ "${{ github.event.inputs.mode }}" = "monthly" ]; then
+            python birthday-bot-saas/scripts/send_reminders.py monthly
+          fi
+
+      - name: Run daily birthday check
+        if: github.event.inputs.mode == 'daily' || github.event_name == 'schedule'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          SENDER_APP_PASSWORD: ${{ secrets.SENDER_APP_PASSWORD }}
+        run: python birthday-bot-saas/scripts/send_reminders.py daily
