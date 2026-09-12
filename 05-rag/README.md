@@ -1,16 +1,16 @@
 # 05 - RAG (Retrieval Augmented Generation)
 
 ## What's in this folder
-- `rag_basics.py` — RAG with keyword search (simplest version)
-- `rag_basics_embedding.py` — RAG with real embeddings (semantic search)
-- `rag_chromadb.py` — RAG with ChromaDB (persistent vector database)
-- `rag_hybrid.py` — Hybrid: documents via ChromaDB + tables via pandas code
-- `rag_pgvector.py` — RAG with PostgreSQL + pgvector (reference)
+- `01_rag_basics.py` — RAG with keyword search (simplest version)
+- `02_rag_basics_embedding.py` — RAG with real embeddings (semantic search)
+- `03_rag_chromadb.py` — RAG with ChromaDB (persistent vector database)
+- `04_rag_hybrid.py` — Hybrid: documents via ChromaDB + tables via pandas code
+- `05_rag_pgvector.py` — RAG with PostgreSQL + pgvector (reference)
 - `file_loaders.py` — Extract text from PDF, DOCX, CSV, images, audio
 
 ## Run
 ```bash
-cd 05-rag && ../.venv/bin/python3 rag_chromadb.py
+cd 05-rag && ../.venv/bin/python3 03_rag_chromadb.py
 ```
 
 ## Key Q&A

@@ -1,11 +1,11 @@
 # 02 - Prompt Engineering
 
 ## What's in this folder
-- `prompt_engineering.py` — 6 techniques demonstrated with bad vs good prompts
+- `01_prompt_engineering.py` — 6 techniques demonstrated with bad vs good prompts
 
 ## Run
 ```bash
-cd 02-prompt-engineering && ../.venv/bin/python3 prompt_engineering.py
+cd 02-prompt-engineering && ../.venv/bin/python3 01_prompt_engineering.py
 ```
 
 ## Key Q&A

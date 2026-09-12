@@ -1,13 +1,13 @@
 # 06 - Multi-Agent Systems
 
 ## What's in this folder
-- `multi_agent.py` — Content pipeline: Researcher → Writer → Reviewer (linear + iterative)
-- `multi_agent_patterns.py` — 4 patterns: Parallel, Manager/Worker, Debate, Sub-agents
+- `01_multi_agent.py` — Content pipeline: Researcher → Writer → Reviewer (linear + iterative)
+- `02_multi_agent_patterns.py` — 4 patterns: Parallel, Manager/Worker, Debate, Sub-agents
 
 ## Run
 ```bash
-cd 06-multi-agent && ../.venv/bin/python3 multi_agent.py
-cd 06-multi-agent && ../.venv/bin/python3 multi_agent_patterns.py
+cd 06-multi-agent && ../.venv/bin/python3 01_multi_agent.py
+cd 06-multi-agent && ../.venv/bin/python3 02_multi_agent_patterns.py
 ```
 
 ## Key Q&A

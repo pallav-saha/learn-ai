@@ -1,13 +1,13 @@
 # 07 - Threading & Multiprocessing
 
 ## What's in this folder
-- `threading_basics.py` — Threading demos (parallel I/O tasks, thread safety)
-- `multiprocessing_basics.py` — Multiprocessing demo (use multiple CPU cores)
+- `01_threading_basics.py` — Threading demos (parallel I/O tasks, thread safety)
+- `02_multiprocessing_basics.py` — Multiprocessing demo (use multiple CPU cores)
 
 ## Run
 ```bash
-cd 07-threading && ../.venv/bin/python3 threading_basics.py
-cd 07-threading && ../.venv/bin/python3 multiprocessing_basics.py
+cd 07-threading && ../.venv/bin/python3 01_threading_basics.py
+cd 07-threading && ../.venv/bin/python3 02_multiprocessing_basics.py
 ```
 
 ## Key Q&A

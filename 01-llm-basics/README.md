@@ -1,11 +1,11 @@
 # 01 - LLM Basics
 
 ## What's in this folder
-- `llm_basics.py` — Your first LLM API call (prompt → completion flow)
+- `01_llm_basics.py` — Your first LLM API call (prompt → completion flow)
 
 ## Run
 ```bash
-cd 01-llm-basics && ../.venv/bin/python3 llm_basics.py
+cd 01-llm-basics && ../.venv/bin/python3 01_llm_basics.py
 ```
 
 ## Key Q&A

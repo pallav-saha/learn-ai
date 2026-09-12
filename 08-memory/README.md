@@ -1,16 +1,16 @@
 # 08 - Memory & Conversations
 
 ## What's in this folder
-- `memory_1_short_term.py` — Just a messages list (forgets on exit)
-- `memory_2_long_term.py` — Saves to JSON file (remembers across runs)
-- `memory_3_semantic.py` — ChromaDB for searchable past conversations
-- `memory_agent.py` — All 3 combined into one agent
+- `01_memory_short_term.py` — Just a messages list (forgets on exit)
+- `02_memory_long_term.py` — Saves to JSON file (remembers across runs)
+- `03_memory_semantic.py` — ChromaDB for searchable past conversations
+- `04_memory_agent.py` — All 3 combined into one agent
 
 ## Run (step by step)
 ```bash
-cd 08-memory && ../.venv/bin/python3 memory_1_short_term.py
-cd 08-memory && ../.venv/bin/python3 memory_2_long_term.py
-cd 08-memory && ../.venv/bin/python3 memory_3_semantic.py
+cd 08-memory && ../.venv/bin/python3 01_memory_short_term.py
+cd 08-memory && ../.venv/bin/python3 02_memory_long_term.py
+cd 08-memory && ../.venv/bin/python3 03_memory_semantic.py
 ```
 
 ## Key Q&A

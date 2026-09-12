@@ -1,11 +1,11 @@
 # 03 - AI Agents
 
 ## What's in this folder
-- `agent_basics.py` — An agent with tools (calculator, time, dictionary, Wikipedia)
+- `01_agent_basics.py` — An agent with tools (calculator, time, dictionary, Wikipedia)
 
 ## Run
 ```bash
-cd 03-agents && ../.venv/bin/python3 agent_basics.py
+cd 03-agents && ../.venv/bin/python3 01_agent_basics.py
 ```
 
 ## Key Q&A

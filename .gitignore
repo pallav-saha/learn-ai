@@ -12,3 +12,11 @@ semantic_memory_db/
 agent_memory.json
 chat_history.json
 .DS_Store
+
+# Redis dump files (generated when running Redis locally)
+dump.rdb
+*.rdb
+
+# Demo output files (regenerated on each run)
+14-evaluation/eval_results.json
+14-evaluation/traces.json
